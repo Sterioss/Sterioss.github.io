@@ -14,7 +14,6 @@ nav {
 	font-size: 30px;
 	line-height: 60px;
 	padding-left: 390px;
-
 }
 
 .menu {
@@ -30,9 +29,9 @@ nav {
 	font-size: 16px;	
 }
 
-.main {
+.main{
 	width: 100%;
-	height: calc(100% - 60px);
+	height: 100vh;
 	background: url(../img/photo4.png) 90% 100%/auto 85% no-repeat, url(../img/fon.jpg) center/cover no-repeat;
 }
 
@@ -67,35 +66,44 @@ nav {
 	background: none;
 }
 
-.about_me h1{
+.about_me_container h1{
 	text-align: center;
 	margin-top: 105px;
+	margin-bottom: 30px;
 	color: #263244;
 	font-size: 35px;
 	text-transform: uppercase;
 }
 
-.about_me{
+.about_me_container hr{
+	width: 75px;
+	background: #FF8C00;
+	margin: 0px auto;
+	border: none;
+	height: 5px;
+}
+
+.about_me_container{
 	width: 720px;
 	margin: 0px auto;
 }
 
-.about_me img{
+.about_me_container img{
 	display: block;
 	margin: 30px auto;
 }
 
-.about_me p{
+.about_me_container p{
 	margin-top: 15px;
 	font-size: 20px;
 }
 
-.about_me .secondtext{
+.about_me_container .secondtext{
 	margin-top: 40px;
 	font-size: 20px;
 }
 
-.about_me a{
+.about_me_container a{
 	font-size: 15px;
 	text-align: center;
 	border: 2px solid ;
@@ -130,7 +138,7 @@ nav {
 
 .skills hr{
 	width: 70px;
-	background: #d17700;
+	background: #FF8C00;
 	margin: 0px auto;
 	border: none;
 	height: 5px;
@@ -150,7 +158,7 @@ nav {
 
 .skill_item h4{
 	text-align: center;
-	color: #d17700;
+	color: #FF8C00;
 	margin-bottom: 20px;
 	font-size: 18px;
 }
@@ -182,7 +190,7 @@ nav {
 
 .cases_container hr{
 	width: 70px;
-	background: #d17700;
+	background: #FF8C00;
 	margin: 0px auto;
 	border: none;
 	height: 5px;
@@ -226,7 +234,7 @@ nav {
 	text-align: center;
 	font-size: 18px;
 	color: #fff;
-	background: #63b5ae;
+	background-color: #63b5ae;
 	padding-top: 11px;
 	text-transform: uppercase;
 }
@@ -299,7 +307,7 @@ nav {
 .days .quantity{
 	float: right;
 	margin-right: 100px;
-	text-transform: uppercase;
+	font-weight: bolder;
 	font-size: 15px;
 	margin: 20px 100px 10px 0px;
 }
@@ -307,21 +315,22 @@ nav {
 .price .summa{
 	float: left;
 	margin: 0px 500px 0px 100px;
-	text-transform: uppercase;
+	font-weight: bolder;
 	font-size: 15px;
 }
 
 .price .full_cost{
 	float: right;
-	text-transform: uppercase;
+	font-weight: bolder;
 	font-size: 15px;
 	margin-right: 100px;
 }
 
 .statistics{
 	background: url(../img/fon3.jpg) center/cover no-repeat ;
-	height: 500px;
+		
 	padding-top: 105px;
+	background-attachment: fixed;
 }
 
 .statistics_container{
@@ -333,7 +342,7 @@ nav {
 
 .statistics_container hr{
 	width: 100px;
-	background: #d17700;
+	background: #FF8C00;
 	margin: 0px auto;
 	border: none;
 	height: 5px;
@@ -380,7 +389,7 @@ nav {
 }
 .feedback_container hr{
 	width: 100px;
-	background: #d17700;
+	background: #FF8C00;
 	margin: 0px auto;
 	border: none;
 	height: 5px;
@@ -422,7 +431,7 @@ nav {
 
 .contacts_container hr{
 	width: 74px;
-	background: #d17700;
+	background: #FF8C00;
 	margin: 0 auto;
 	border: none;
 	height: 5px;
